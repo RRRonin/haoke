@@ -1,0 +1,16 @@
+package com.chinaSoft.haoke.dubbo.server.api;
+
+import com.chinaSoft.haoke.dubbo.server.pojo.HouseResources;
+
+/**
+ * @Author:Ronin
+ */
+public interface ApiHouseResourcesService {
+    /**
+     * 新增房源
+     *
+     * @param houseResources
+     * @return -1:输入的参数不符合要求， 0：数据插入数据库失败， 1：成功
+     */
+    int saveHouseResources(HouseResources houseResources);
+}
